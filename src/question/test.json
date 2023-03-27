@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "correctAnswer": "What time is it?",
+    "incorrectAnswers": [
+      "How are you?",
+      "Where are you?",
+      "What's your name?"
+    ],
+    "question": "How do you ask for the time?"
+  },
+  {
+    "id": "2",
+    "correctAnswer": "I am studying English.",
+    "incorrectAnswers": [
+      "I am speaking Spanish.",
+      "I am eating pizza.",
+      "I am watching TV."
+    ],
+    "question": "What are you doing to improve your English?"
+  },
+  {
+    "id": "3",
+    "correctAnswer": "I went to the beach last weekend.",
+    "incorrectAnswers": [
+      "I will go to the beach next weekend.",
+      "I go to the beach every weekend.",
+      "I have never been to the beach."
+    ],
+    "question": "When was the last time you went to the beach?"
+  },
+  {
+    "id": "4",
+    "correctAnswer": "I have been studying English for 2 years.",
+    "incorrectAnswers": [
+      "I have been studying Spanish for 2 years.",
+      "I have been studying Chinese for 2 years.",
+      "I have never studied a foreign language."
+    ],
+    "question": "How long have you been studying English?"
+  },
+  {
+    "id": "5",
+    "correctAnswer": "I am going to the gym.",
+    "incorrectAnswers": [
+      "I am going to the library.",
+      "I am going to the movies.",
+      "I am going to the park."
+    ],
+    "question": "Where are you going after class?"
+  },
+  {
+    "id": "6",
+    "correctAnswer": "It's very cold today.",
+    "incorrectAnswers": [
+      "It's very hot today.",
+      "It's very sunny today.",
+      "It's very rainy today."
+    ],
+    "question": "What's the weather like today?"
+  },
+  {
+    "id": "7",
+    "correctAnswer": "I would like a coffee, please.",
+    "incorrectAnswers": [
+      "I would like a tea, please.",
+      "I would like a water, please.",
+      "I would like a soda, please."
+    ],
+    "question": "What would you like to drink?"
+  },
+  {
+    "id": "8",
+    "correctAnswer": "I don't like horror movies.",
+    "incorrectAnswers": [
+      "I like romantic comedies.",
+      "I like action movies.",
+      "I like science fiction movies."
+    ],
+    "question": "What kind of movies do you dislike?"
+  },
+  {
+    "id": "9",
+    "correctAnswer": "I am from France.",
+    "incorrectAnswers": [
+      "I am from Spain.",
+      "I am from Italy.",
+      "I am from Germany."
+    ],
+    "question": "Where are you from?"
+  },
+  {
+    "id": "10",
+    "correctAnswer": "My favorite color is blue.",
+    "incorrectAnswers": [
+      "My favorite color is red.",
+      "My favorite color is green.",
+      "My favorite color is yellow."
+    ],
+    "question": "What is your favorite color?"
+  }
+]
