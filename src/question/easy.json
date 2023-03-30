@@ -3,9 +3,9 @@
     "id": "1",
     "correctAnswer": "What time is it?",
     "incorrectAnswers": [
-      "How are you?",
-      "Where are you?",
-      "What's your name?"
+        "How are you?",
+        "Where are you?",
+        "What's your name?"
     ],
     "question": "How do you ask for the time?"
   },

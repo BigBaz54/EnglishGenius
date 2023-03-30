@@ -24,6 +24,15 @@
   border-radius: 1.5rem;
   border: none;
 }
+.container .answers .buttonQCM:hover {
+  background-color: darkslateblue;
+  color: white;
+}
+.container .answers .buttonQCM:active {
+  background-color: #3c299a;
+  color: white;
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+}
 .container .score {
   align-self: center;
 }
