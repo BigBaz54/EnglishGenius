@@ -48,7 +48,6 @@
 .container .answers .buttonQCM.correctAnswer {
   background-color: #240046;
   color: white;
-  transition: transform 350ms ease;
   animation: shake 500ms ease-in;
   z-index: 1;
 }

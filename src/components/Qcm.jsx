@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-
+import confetti from "https://esm.run/canvas-confetti@1";
 // Components
 
 
@@ -71,6 +71,10 @@ export default function QCM(props) {
 
     function triggerAnswer(value) {
         if (value === currentCorrectAnswer) {
+            confetti({
+                particleCount: 100,
+                spread: 1000
+              });
             setCorrectScore(correctScore + 1);
             setTotal_count(total_count + 1);
         } else {
