@@ -7,7 +7,7 @@
   width: 80%;
   background-color: #f5f5f5;
   border-radius: 1rem;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .container .question {
@@ -48,6 +48,9 @@
 .container .answers .buttonQCM.correctAnswer {
   background-color: #240046;
   color: white;
+  transition: transform 350ms ease;
+  animation: shake 500ms ease-in;
+  z-index: 1;
 }
 
 .container .answers .buttonQCM.incorrectAnswer {
@@ -82,6 +85,30 @@
   padding: 0.5rem;
   user-select: none;
   display: none;
+}
+
+@keyframes shake {
+  30% {
+    transform: scale(1.2);
+  }
+  25% {
+    transform: scale(1.2) rotate(5deg);
+  }
+  40% {
+    transform: scale(1.2) rotate(-5deg);
+  }
+  50% {
+    transform: scale(1.2) rotate(2deg);
+  }
+  60% {
+    transform: scale(1.2) rotate(-5deg);
+  }
+  75% {
+    transform: scale(1.2) rotate(-2deg);
+  }
+  80% {
+    transform: scale(1.2);
+  }
 }
 
 /*# sourceMappingURL=Qcm.css.map */
