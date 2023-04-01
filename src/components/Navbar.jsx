@@ -6,7 +6,6 @@ import "../styles/Navbar.css";
 
 export default function Navbar() {
     return (
-        <div>
         <nav className="navbar">
             <ul className="navbar-nav">
                 <li className="nav-home">
@@ -17,6 +16,5 @@ export default function Navbar() {
                 </li>
             </ul>
         </nav>
-        </div>
     );
 };
