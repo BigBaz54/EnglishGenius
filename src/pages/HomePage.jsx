@@ -14,7 +14,7 @@ export default function HomePage() {
             <Navbar />
             <div className={"main"}>
                 <h1>Lets play !!</h1>
-                <QCM />
+                <QCM topic="easy"/>
             </div>
 
         </div>

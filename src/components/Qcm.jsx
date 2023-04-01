@@ -6,7 +6,7 @@ import React, {useEffect, useState} from "react";
 // Styles
 import "../styles/Qcm.css";
 
-export default function QCM() {
+export default function QCM(props) {
     // Script
     const [correctScore, setCorrectScore] = useState(0);
     const [total_count, setTotal_count] = useState(0);
@@ -17,9 +17,10 @@ export default function QCM() {
     const [currentAnswers, setCurrentAnswers] = useState(null);
     const [currentCorrectAnswer, setCurrentCorrectAnswer] = useState(null);
 
+    
     useEffect(() => {
         const fetchAPI = async () => {
-            const res = await fetch("/api/easy")
+            const res = await fetch("/api/"+props.topic)
             const data = await res.json();
             let randomQuestion = data[Math.floor(Math.random() * data.length)];
             let answers = [];
