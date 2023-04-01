@@ -10,7 +10,7 @@ body .main {
   font-family: "SF Pro Display", sans-serif;
 }
 body .main h1 {
-  color: mediumpurple;
+  color: #9D4EDD;
   font-size: 2rem;
   font-weight: 750;
   margin-bottom: 2rem;
@@ -42,17 +42,17 @@ body .main h1 {
 }
 
 .topicButton:active {
-  background-color: mediumpurple;
+  background-color: #240046;
   color: white;
 }
 
 .topicButton.selected:hover {
-  background-color: mediumpurple;
+  background-color: #240046;
   color: white;
 }
 
 .selected {
-  background-color: mediumpurple;
+  background-color: #240046;
 }
 
 /*# sourceMappingURL=HomePage.css.map */
