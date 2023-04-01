@@ -28,6 +28,8 @@ export default function QCM(props) {
             for (const element of randomQuestion.incorrectAnswers) {
                 answers.push(element);
             }
+            setTotal_count(0);
+            setCorrectScore(0);
             setQuestions(data);
             setCurrentQuestion(randomQuestion.question);
             setCurrentCorrectAnswer(randomQuestion.correctAnswer);
