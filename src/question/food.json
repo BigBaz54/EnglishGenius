@@ -1,0 +1,372 @@
+[
+  {
+    "id": 1,
+    "correctAnswer": "Apple",
+    "incorrectAnswers": [
+      "Orange",
+      "Banana",
+      "Pineapple"
+    ],
+    "question": "Un fruit rouge et rond souvent utilisé pour les tartes"
+  },
+  {
+    "id": 2,
+    "correctAnswer": "Carrot",
+    "incorrectAnswers": [
+      "Broccoli",
+      "Cucumber",
+      "Eggplant"
+    ],
+    "question": "Un légume orange et croquant souvent utilisé dans les salades"
+  },
+  {
+    "id": 3,
+    "correctAnswer": "Cheese",
+    "incorrectAnswers": [
+      "Butter",
+      "Milk",
+      "Yogurt"
+    ],
+    "question": "Un produit laitier souvent utilisé sur les pizzas"
+  },
+  {
+    "id": 4,
+    "correctAnswer": "Egg",
+    "incorrectAnswers": [
+      "Flour",
+      "Sugar",
+      "Salt"
+    ],
+    "question": "Un aliment de forme ovale souvent utilisé pour la cuisson"
+  },
+  {
+    "id": 5,
+    "correctAnswer": "Fish",
+    "incorrectAnswers": [
+      "Chicken",
+      "Beef",
+      "Pork"
+    ],
+    "question": "Un animal aquatique souvent consommé en sushi"
+  },
+  {
+    "id": 6,
+    "correctAnswer": "Garlic",
+    "incorrectAnswers": [
+      "Ginger",
+      "Basil",
+      "Cilantro"
+    ],
+    "question": "Un légume au goût fort souvent utilisé pour la cuisson"
+  },
+  {
+    "id": 7,
+    "correctAnswer": "Honey",
+    "incorrectAnswers": [
+      "Sugar",
+      "Syrup",
+      "Molasses"
+    ],
+    "question": "Un liquide sucré produit par les abeilles"
+  },
+  {
+    "id": 8,
+    "correctAnswer": "Ice cream",
+    "incorrectAnswers": [
+      "Cake",
+      "Pie",
+      "Pudding"
+    ],
+    "question": "Un dessert glacé souvent mangé en été"
+  },
+  {
+    "id": 9,
+    "correctAnswer": "Lemon",
+    "incorrectAnswers": [
+      "Lime",
+      "Grapefruit",
+      "Orange"
+    ],
+    "question": "Un agrume jaune et acide souvent utilisé pour la limonade"
+  },
+  {
+    "id": 10,
+    "correctAnswer": "Mushroom",
+    "incorrectAnswers": [
+      "Carrot",
+      "Onion",
+      "Potato"
+    ],
+    "question": "Un champignon comestible souvent utilisé dans la cuisine"
+  },
+  {
+    "id": 11,
+    "correctAnswer": "Noodles",
+    "incorrectAnswers": [
+      "Rice",
+      "Potatoes",
+      "Bread"
+    ],
+    "question": "Un aliment long et mince souvent utilisé dans la cuisine asiatique"
+  },
+  {
+    "id": 12,
+    "correctAnswer": "Olive oil",
+    "incorrectAnswers": [
+      "Vegetable oil",
+      "Coconut oil",
+      "Canola oil"
+    ],
+    "question": "Une huile souvent utilisée pour la cuisine méditerranéenne"
+  },
+  {
+    "id": 13,
+    "correctAnswer": "Peanut butter",
+    "incorrectAnswers": [
+      "Jam",
+      "Honey",
+      "Butter"
+    ],
+    "question": "Une pâte à tartiner souvent utilisée dans les sandwichs"
+  },
+  {
+    "id": 14,
+    "correctAnswer": "Quinoa",
+    "incorrectAnswers": [
+      "Rice",
+      "Pasta",
+      "Bread"
+    ],
+    "question": "Une graine souvent utilisée comme alternative aux céréales"
+  },
+  {
+    "id": 15,
+    "correctAnswer": "Raspberry",
+    "incorrectAnswers": [
+      "Blueberry",
+      "Strawberry",
+      "Blackberry"
+    ],
+    "question": "Un fruit rouge souvent utilisé pour les desserts"
+  },
+  {
+    "id": 16,
+    "correctAnswer": "Sausage",
+    "incorrectAnswers": [
+      "Bacon",
+      "Ham",
+      "Steak"
+    ],
+    "question": "Un aliment de viande souvent grillé ou frit"
+  },
+  {
+    "id": 17,
+    "correctAnswer": "Tofu",
+    "incorrectAnswers": [
+      "Chicken",
+      "Beef",
+      "Pork"
+    ],
+    "question": "Un aliment végétarien à base de soja souvent utilisé dans la cuisine asiatique"
+  },
+  {
+    "id": 18,
+    "correctAnswer": "Vanilla",
+    "incorrectAnswers": [
+      "Chocolate",
+      "Strawberry",
+      "Caramel"
+    ],
+    "question": "Une épice souvent utilisée pour parfumer les desserts"
+  },
+  {
+    "id": 19,
+    "correctAnswer": "Walnut",
+    "incorrectAnswers": [
+      "Peanut",
+      "Almond",
+      "Cashew"
+    ],
+    "question": "Une noix souvent utilisée dans les gâteaux"
+  },
+  {
+    "id": 20,
+    "correctAnswer": "Yogurt",
+    "incorrectAnswers": [
+      "Milk",
+      "Cheese",
+      "Butter"
+    ],
+    "question": "Un produit laitier souvent mangé au petit déjeuner"
+  },
+  {
+    "id": 21,
+    "correctAnswer": "Zucchini",
+    "incorrectAnswers": [
+      "Cabbage",
+      "Carrot",
+      "Potato"
+    ],
+    "question": "Un légume vert souvent utilisé dans les plats salés"
+  },
+  {
+    "id": 22,
+    "correctAnswer": "Almond",
+    "incorrectAnswers": [
+      "Peanut",
+      "Walnut",
+      "Cashew"
+    ],
+    "question": "Une noix souvent utilisée dans les laits végétaux"
+  },
+  {
+    "id": 23,
+    "correctAnswer": "Basil",
+    "incorrectAnswers": [
+      "Cilantro",
+      "Mint",
+      "Rosemary"
+    ],
+    "question": "Une herbe aromatique souvent utilisée dans la cuisine italienne"
+  },
+  {
+    "id": 24,
+    "correctAnswer": "Cinnamon",
+    "incorrectAnswers": [
+      "Garlic",
+      "Onion",
+      "Ginger"
+    ],
+    "question": "Une épice souvent utilisée pour parfumer les desserts"
+  },
+  {
+    "id": 25,
+    "correctAnswer": "Dark chocolate",
+    "incorrectAnswers": [
+      "Milk chocolate",
+      "White chocolate",
+      "Caramel"
+    ],
+    "question": "Un chocolat avec une teneur élevée en cacao"
+  },
+  {
+    "id": 26,
+    "correctAnswer": "Eggplant",
+    "incorrectAnswers": [
+      "Carrot",
+      "Broccoli",
+      "Cucumber"
+    ],
+    "question": "Un légume violet souvent utilisé dans les plats salés"
+  },
+  {
+    "id": 30,
+    "correctAnswer": "Avocado",
+    "incorrectAnswers": [
+      "Mango",
+      "Pineapple",
+      "Papaya"
+    ],
+    "question": "A fruit with green skin and a large pit in the center, often used in guacamole"
+  },
+  {
+    "id": 31,
+    "correctAnswer": "Basil",
+    "incorrectAnswers": [
+      "Thyme",
+      "Rosemary",
+      "Oregano"
+    ],
+    "question": "A green herb often used in Italian cuisine"
+  },
+  {
+    "id": 32,
+    "correctAnswer": "Cinnamon",
+    "incorrectAnswers": [
+      "Paprika",
+      "Curry",
+      "Chili powder"
+    ],
+    "question": "A spice made from the bark of trees, often used in sweet dishes"
+  },
+  {
+    "id": 33,
+    "correctAnswer": "Dates",
+    "incorrectAnswers": [
+      "Figs",
+      "Prunes",
+      "Raisins"
+    ],
+    "question": "A sweet fruit that grows on palm trees, often used in Middle Eastern cuisine"
+  },
+  {
+    "id": 34,
+    "correctAnswer": "Eggplant",
+    "incorrectAnswers": [
+      "Tomato",
+      "Cucumber",
+      "Zucchini"
+    ],
+    "question": "A purple vegetable often used in Mediterranean cuisine"
+  },
+  {
+    "id": 35,
+    "correctAnswer": "Feta",
+    "incorrectAnswers": [
+      "Cheddar",
+      "Mozzarella",
+      "Swiss"
+    ],
+    "question": "A crumbly cheese often used in Greek cuisine"
+  },
+  {
+    "id": 36,
+    "correctAnswer": "Ginger",
+    "incorrectAnswers": [
+      "Garlic",
+      "Onion",
+      "Shallot"
+    ],
+    "question": "A root spice often used in Asian cuisine"
+  },
+  {
+    "id": 37,
+    "correctAnswer": "Hummus",
+    "incorrectAnswers": [
+      "Salsa",
+      "Guacamole",
+      "Tzatziki"
+    ],
+    "question": "A dip made from mashed chickpeas, often used in Middle Eastern cuisine"
+  },
+  {
+    "id": 38,
+    "correctAnswer": "Jasmine",
+    "incorrectAnswers": [
+      "Green",
+      "Black",
+      "Oolong"
+    ],
+    "question": "A type of fragrant tea often used in Chinese cuisine"
+  },
+  {
+    "id": 39,
+    "correctAnswer": "Kale",
+    "incorrectAnswers": [
+      "Spinach",
+      "Lettuce",
+      "Arugula"
+    ],
+    "question": "A leafy green vegetable often used in salads"
+  },
+  {
+    "id": 40,
+    "correctAnswer": "Lentils",
+    "incorrectAnswers": [
+      "Black beans",
+      "Chickpeas",
+      "Kidney beans"
+    ],
+    "question": "A type of legume often used in Indian cuisine"
+  }
+]

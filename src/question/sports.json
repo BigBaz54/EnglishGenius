@@ -1,0 +1,192 @@
+[
+    {
+      "id": 1,
+      "correctAnswer": "Football",
+      "incorrectAnswers": [
+        "Basketball",
+        "Tennis",
+        "Golf"
+      ],
+      "question": "Quel sport se joue avec une balle ronde et comporte un gardien de but?"
+    },
+    {
+      "id": 2,
+      "correctAnswer": "Basketball",
+      "incorrectAnswers": [
+        "Football",
+        "Tennis",
+        "Golf"
+      ],
+      "question": "Quel sport se joue avec une balle et un panier, et dont l'objectif est de marquer des points en lançant la balle dans le panier?"
+    },
+    {
+      "id": 3,
+      "correctAnswer": "Tennis",
+      "incorrectAnswers": [
+        "Football",
+        "Basketball",
+        "Golf"
+      ],
+      "question": "Quel sport se joue avec des raquettes et une balle, et dont l'objectif est de faire passer la balle au-dessus d'un filet et dans le camp de l'adversaire?"
+    },
+    {
+      "id": 4,
+      "correctAnswer": "Baseball",
+      "incorrectAnswers": [
+        "Football",
+        "Basketball",
+        "Tennis"
+      ],
+      "question": "Quel sport se joue avec une batte et une balle, et dont l'objectif est de frapper la balle et de courir autour d'une série de bases pour marquer des points?"
+    },
+    {
+      "id": 5,
+      "correctAnswer": "Swimming",
+      "incorrectAnswers": [
+        "Cycling",
+        "Running",
+        "Rowing"
+      ],
+      "question": "Quel sport consiste à se propulser dans l'eau en utilisant les bras et les jambes?"
+    },
+    {
+      "id": 6,
+      "correctAnswer": "Boxing",
+      "incorrectAnswers": [
+        "Wrestling",
+        "Judo",
+        "Karate"
+      ],
+      "question": "Quel sport implique deux combattants portant des gants qui se frappent dans un ring?"
+    },
+    {
+      "id": 7,
+      "correctAnswer": "Volleyball",
+      "incorrectAnswers": [
+        "Football",
+        "Basketball",
+        "Tennis"
+      ],
+      "question": "Quel sport se joue avec une balle et un filet, et dont l'objectif est de faire passer la balle par-dessus le filet et dans le camp de l'adversaire?"
+    },
+    {
+      "id": 8,
+      "correctAnswer": "Golf",
+      "incorrectAnswers": [
+        "Football",
+        "Basketball",
+        "Tennis"
+      ],
+      "question": "Quel sport se joue sur un parcours avec différents trous, et dont l'objectif est de mettre une balle dans chaque trou avec le moins de coups possible?"
+    },
+    {
+      "id": 9,
+      "correctAnswer": "Cycling",
+      "incorrectAnswers": [
+        "Swimming",
+        "Running",
+        "Rowing"
+      ],
+      "question": "Quel sport consiste à rouler à vélo aussi rapidement que possible, que ce soit sur une piste ou sur la route?"
+    },
+    {
+      "id": 10,
+      "correctAnswer": "Running",
+      "incorrectAnswers": [
+        "Swimming",
+        "Cycling",
+        "Rowing"
+      ],
+      "question": "Quel sport consiste à se déplacer aussi rapidement que possible à pied, que ce soit sur une piste ou sur la route?"
+    },
+    {
+      "id": 11,
+      "correctAnswer": "Cricket",
+      "incorrectAnswers": [
+        "Basketball",
+        "Soccer",
+        "Tennis"
+      ],
+      "question": "Quel sport se joue avec une batte et une balle, l'objectif étant de marquer des points en frappant la balle et en courant entre les guichets ?"
+    },
+    {
+      "id": 12,
+      "correctAnswer": "Hockey",
+      "incorrectAnswers": [
+        "Basketball",
+        "Soccer",
+        "Tennis"
+      ],
+      "question": "Quel sport se joue sur un terrain avec une balle et une crosse, l'objectif étant de marquer des buts en frappant la balle dans le filet de l'adversaire ?"
+    },
+    {
+      "id": 13,
+      "correctAnswer": "Gymnastics",
+      "incorrectAnswers": [
+        "Boxe",
+        "Lutte",
+        "Judo"
+      ],
+      "question": "Quel sport consiste à réaliser des mouvements acrobatiques et de danse sur un tapis ou un autre équipement ?"
+    },
+    {
+      "id": 14,
+      "correctAnswer": "Sailing",
+      "incorrectAnswers": [
+        "Natation",
+        "Aviron",
+        "Kayak"
+      ],
+      "question": "Quel sport consiste à utiliser la force du vent pour naviguer un bateau ou un navire sur l'eau ?"
+    },
+    {
+      "id": 15,
+      "correctAnswer": "Gym",
+      "incorrectAnswers": [
+        "Parc",
+        "Bibliothèque",
+        "Cinéma"
+      ],
+      "question": "Quel type d'établissement est dédié à l'exercice physique et à la forme physique ?"
+    },
+    {
+      "id": 16,
+      "correctAnswer": "Skateboard",
+      "incorrectAnswers": [
+        "Snowboard",
+        "Surf",
+        "Windsurf"
+      ],
+      "question": "Quel sport consiste à rouler sur une planche à roulettes et à effectuer des tricks sur des rampes et d'autres obstacles ?"
+    },
+    {
+      "id": 17,
+      "correctAnswer": "Taekwondo",
+      "incorrectAnswers": [
+        "Kendo",
+        "Karate",
+        "Jujutsu"
+      ],
+      "question": "Quel art martial implique d'utiliser des coups de pied élevés et des mouvements de pied rapides pour frapper un adversaire ?"
+    },
+    {
+      "id": 18,
+      "correctAnswer": "Tir à l'arc",
+      "incorrectAnswers": [
+        "Escrime",
+        "Tir",
+        "Boxe"
+      ],
+      "question": "Quel sport implique d'utiliser un arc pour tirer des flèches sur une cible ?"
+    },
+    {
+      "id": 19,
+      "correctAnswer": "Tennis de table",
+      "incorrectAnswers": [
+        "Badminton",
+        "Volleyball",
+        "Hockey"
+      ],
+      "question": "Quel sport se joue avec de petites raquettes et une balle sur une table, l'objectif étant de faire passer la balle par-dessus le filet et de la faire atterrir sur le côté de la table de l'adversaire ?"
+    }
+  ]

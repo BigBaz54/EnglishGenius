@@ -4,6 +4,10 @@ import express from 'express';
 import easyData from './question/easy.json' assert { type: 'json' };
 import mediumData from './question/medium.json' assert { type: 'json' };
 import hardData from './question/hard.json' assert { type: 'json' };
+import sportsData from './question/sports.json' assert { type: 'json' };
+import foodData from './question/food.json' assert { type: 'json' };
+import animalsData from './question/animals.json' assert { type: 'json' };
+import ITData from './question/IT.json' assert { type: 'json' };
 
 const app = express();
 app.use(express.json());
@@ -19,6 +23,18 @@ app.get('/medium', (req, res) => {
 });
 app.get('/hard', (req, res) => {
     res.json(hardData);
+});
+app.get('/sports', (req, res) => {
+    res.json(sportsData);
+});
+app.get('/food', (req, res) => {
+    res.json(foodData);
+});
+app.get('/animals', (req, res) => {
+    res.json(animalsData);
+});
+app.get('/IT', (req, res) => {
+    res.json(ITData);
 });
 app.listen(3000, () => {
     console.log('API Server started on port 3000');

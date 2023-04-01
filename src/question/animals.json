@@ -1,0 +1,202 @@
+[
+    {
+      "id": 1,
+      "correctAnswer": "Elephant",
+      "incorrectAnswers": [
+        "Rabbit",
+        "Lion",
+        "Turtle"
+      ],
+      "question": "Quel est l'animal terrestre le plus lourd ?"
+    },
+    {
+      "id": 2,
+      "correctAnswer": "Shark",
+      "incorrectAnswers": [
+        "Octopus",
+        "Dolphin",
+        "Whale"
+      ],
+      "question": "Quel est le poisson le plus rapide dans l'eau ?"
+    },
+    {
+      "id": 3,
+      "correctAnswer": "Giraffe",
+      "incorrectAnswers": [
+        "Horse",
+        "Zebra",
+        "Donkey"
+      ],
+      "question": "Quel est l'animal ayant le cou le plus long ?"
+    },
+    {
+      "id": 4,
+      "correctAnswer": "Kangaroo",
+      "incorrectAnswers": [
+        "Gorilla",
+        "Hippopotamus",
+        "Crocodile"
+      ],
+      "question": "Quel est l'animal qui a un sac pour transporter ses petits ?"
+    },
+    {
+      "id": 5,
+      "correctAnswer": "Penguin",
+      "incorrectAnswers": [
+        "Ostrich",
+        "Eagle",
+        "Flamingo"
+      ],
+      "question": "Quel est l'oiseau qui ne vole pas et qui vit sur la banquise ?"
+    },
+    {
+      "id": 6,
+      "correctAnswer": "Snake",
+      "incorrectAnswers": [
+        "Spider",
+        "Scorpion",
+        "Lizard"
+      ],
+      "question": "Quel est le reptile qui n'a pas de pattes ?"
+    },
+    {
+      "id": 7,
+      "correctAnswer": "Hamster",
+      "incorrectAnswers": [
+        "Guinea pig",
+        "Rat",
+        "Mouse"
+      ],
+      "question": "Quel est l'animal de compagnie qui aime courir dans une roue ?"
+    },
+    {
+      "id": 8,
+      "correctAnswer": "Panda",
+      "incorrectAnswers": [
+        "Koala",
+        "Sloth",
+        "Gorilla"
+      ],
+      "question": "Quel est l'animal qui mange principalement du bambou ?"
+    },
+    {
+      "id": 9,
+      "correctAnswer": "Butterfly",
+      "incorrectAnswers": [
+        "Ant",
+        "Fly",
+        "Wasp"
+      ],
+      "question": "Quel est l'insecte qui se transforme en chrysalide avant de devenir adulte ?"
+    },
+    {
+      "id": 10,
+      "correctAnswer": "Crocodile",
+      "incorrectAnswers": [
+        "Turtle",
+        "Alligator",
+        "Lizard"
+      ],
+      "question": "Quel est le reptile ayant la plus forte mâchoire ?"
+    },
+    {
+      "id": 11,
+      "correctAnswer": "Gorilla",
+      "incorrectAnswers": [
+        "Lion",
+        "Tiger",
+        "Bear"
+      ],
+      "question": "Quel est le plus grand primate terrestre ?"
+    },
+    {
+      "id": 12,
+      "correctAnswer": "Koala",
+      "incorrectAnswers": [
+        "Panda",
+        "Chimpanzee",
+        "Giraffe"
+      ],
+      "question": "Quel est l'animal australien qui dort environ 20 heures par jour ?"
+    },
+    {
+      "id": 13,
+      "correctAnswer": "Hippopotamus",
+      "incorrectAnswers": [
+        "Giraffe",
+        "Zebra",
+        "Horse"
+      ],
+      "question": "Quel est l'animal semi-aquatique ayant les dents les plus longues ?"
+    },
+    {
+      "id": 14,
+      "correctAnswer": "Bat",
+      "incorrectAnswers": [
+        "Bird",
+        "Mouse",
+        "Rat"
+      ],
+      "question": "Quel est l'animal volant qui dort la tête en bas ?"
+    },
+    {
+      "id": 15,
+      "correctAnswer": "Otter",
+      "incorrectAnswers": [
+        "Beaver",
+        "Raccoon",
+        "Dog"
+      ],
+      "question": "Quel est l'animal semi-aquatique ayant une poche pour stocker sa nourriture ?"
+    },
+    {
+      "id": 16,
+      "correctAnswer": "Tiger",
+      "incorrectAnswers": [
+        "Leopard",
+        "Lion",
+        "Jaguar"
+      ],
+      "question": "Quel est le félin ayant les rayures les plus reconnaissables ?"
+    },
+    {
+      "id": 17,
+      "correctAnswer": "Spider",
+      "incorrectAnswers": [
+        "Scorpion",
+        "Insect",
+        "Centipede"
+      ],
+      "question": "Quel est l'animal ayant huit pattes et qui tisse une toile ?"
+    },
+    {
+      "id": 18,
+      "correctAnswer": "Elephant seal",
+      "incorrectAnswers": [
+        "Seal",
+        "Sea lion",
+        "Walrus"
+      ],
+      "question": "Quel est l'animal marin ayant le plus grand volume de corps ?"
+    },
+    {
+      "id": 19,
+      "correctAnswer": "Chicken",
+      "incorrectAnswers": [
+        "Duck",
+        "Goose",
+        "Turkey"
+      ],
+      "question": "Quel est l'oiseau le plus consommé au monde ?"
+    },
+    {
+      "id": 20,
+      "correctAnswer": "Howler monkey",
+      "incorrectAnswers": [
+        "Squirrel monkey",
+        "Capuchin monkey",
+        "Gibbon"
+      ],
+      "question": "Quel est le singe ayant la voix la plus forte ?"
+    }
+  ]

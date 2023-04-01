@@ -1,0 +1,272 @@
+[
+    {
+      "id": "1",
+      "correctAnswer": "Software",
+      "incorrectAnswers": [
+        "Hardware",
+        "Algorithm",
+        "Code"
+      ],
+      "question": "Logiciel (nom)"
+    },
+    {
+      "id": "2",
+      "correctAnswer": "Database",
+      "incorrectAnswers": [
+        "Internet",
+        "Operating system",
+        "Network"
+      ],
+      "question": "Base de données (nom)"
+    },
+    {
+      "id": "3",
+      "correctAnswer": "Programming",
+      "incorrectAnswers": [
+        "Design",
+        "Marketing",
+        "Management"
+      ],
+      "question": "Programmation (nom)"
+    },
+    {
+      "id": "4",
+      "correctAnswer": "Artificial intelligence",
+      "incorrectAnswers": [
+        "Virtual reality",
+        "Blockchain",
+        "Cloud computing"
+      ],
+      "question": "Intelligence artificielle (nom)"
+    },
+    {
+      "id": "5",
+      "correctAnswer": "Encryption",
+      "incorrectAnswers": [
+        "Compression",
+        "Decryption",
+        "Firewall"
+      ],
+      "question": "Cryptage (nom)"
+    },
+    {
+      "id": "6",
+      "correctAnswer": "Operating system",
+      "incorrectAnswers": [
+        "Programming language",
+        "Database management system",
+        "Network protocol"
+      ],
+      "question": "Système d'exploitation (nom)"
+    },
+    {
+      "id": "7",
+      "correctAnswer": "Programming language",
+      "incorrectAnswers": [
+        "Markup language",
+        "Query language",
+        "Hardware language"
+      ],
+      "question": "Langage de programmation (nom)"
+    },
+    {
+      "id": "8",
+      "correctAnswer": "Algorithm",
+      "incorrectAnswers": [
+        "Data structure",
+        "Programming paradigm",
+        "Software design pattern"
+      ],
+      "question": "Algorithme (nom)"
+    },
+    {
+      "id": "9",
+      "correctAnswer": "Code",
+      "incorrectAnswers": [
+        "Documentation",
+        "Testing",
+        "Debugging"
+      ],
+      "question": "Code source (nom)"
+    },
+    {
+      "id": "10",
+      "correctAnswer": "Cloud computing",
+      "incorrectAnswers": [
+        "Grid computing",
+        "Fog computing",
+        "Edge computing"
+      ],
+      "question": "Informatique en nuage (nom)"
+    },
+    {
+      "id": "11",
+      "correctAnswer": "Network",
+      "incorrectAnswers": [
+        "Server",
+        "Client",
+        "Firewall"
+      ],
+      "question": "Réseau (nom)"
+    },
+    {
+      "id": "12",
+      "correctAnswer": "Interface",
+      "incorrectAnswers": [
+        "Library",
+        "Framework",
+        "Module"
+      ],
+      "question": "Interface (nom)"
+    },
+    {
+      "id": "13",
+      "correctAnswer": "Browser",
+      "incorrectAnswers": [
+        "Server",
+        "Client",
+        "Firewall"
+      ],
+      "question": "Navigateur (nom)"
+    },
+    {
+      "id": "14",
+      "correctAnswer": "Compiler",
+      "incorrectAnswers": [
+        "Debugger",
+        "Interpreter",
+        "Assembler"
+      ],
+      "question": "Compilateur (nom)"
+    },
+    {
+      "id": "15",
+      "correctAnswer": "Bug",
+      "incorrectAnswers": [
+        "Feature",
+        "Patch",
+        "Upgrade"
+      ],
+      "question": "Bogue (nom)"
+    },
+    {
+      "id": "16",
+      "correctAnswer": "API",
+      "incorrectAnswers": [
+        "GUI",
+        "SDK",
+        "IDE"
+      ],
+      "question": "Interface de programmation (nom)"
+    },
+    {
+      "id": "17",
+      "correctAnswer": "Server",
+      "incorrectAnswers": [
+        "Router",
+        "Switch",
+        "Hub"
+      ],
+      "question": "Serveur (nom)"
+    },
+    {
+      "id": "18",
+      "correctAnswer": "Malware",
+      "incorrectAnswers": [
+        "Spyware",
+        "Adware",
+        "Ransomware"
+      ],
+      "question": "Logiciel malveillant (nom)"
+    },
+    {
+      "id": "19",
+      "correctAnswer": "Cache",
+      "incorrectAnswers": [
+        "Buffer",
+        "Memory",
+        "Disk"
+      ],
+      "question": "Cache (nom)"
+    },
+    {
+      "id": "20",
+      "correctAnswer": "Framework",
+      "incorrectAnswers": [
+        "Library",
+        "Module",
+        "Package"
+      ],
+      "question": "Cadre de travail (nom)"
+    },
+    {
+      "id": "21",
+      "correctAnswer": "Interface",
+      "incorrectAnswers": [
+        "Library",
+        "Framework",
+        "Module"
+      ],
+      "question": "Interface (nom)"
+    },
+    {
+      "id": "22",
+      "correctAnswer": "Kernel",
+      "incorrectAnswers": [
+        "Shell",
+        "Daemon",
+        "Driver"
+      ],
+      "question": "Noyau (nom)"
+    },
+    {
+      "id": "23",
+      "correctAnswer": "Debugging",
+      "incorrectAnswers": [
+        "Testing",
+        "Refactoring",
+        "Profiling"
+      ],
+      "question": "Débogage (nom)"
+    },
+    {
+      "id": "24",
+      "correctAnswer": "Open source",
+      "incorrectAnswers": [
+        "Closed source",
+        "Freeware",
+        "Shareware"
+      ],
+      "question": "Open source (nom)"
+    },
+    {
+      "id": "25",
+      "correctAnswer": "Agile",
+      "incorrectAnswers": [
+        "Waterfall",
+        "Scrum",
+        "Kanban"
+      ],
+      "question": "Agile (nom)"
+    },
+    {
+      "id": "26",
+      "correctAnswer": "HTTP",
+      "incorrectAnswers": [
+        "SMTP",
+        "FTP",
+        "TCP/IP"
+      ],
+      "question": "HTTP (nom)"
+    },
+    {
+        "id": "27",
+        "correctAnswer": "CPU",
+        "incorrectAnswers": [
+        "GPU",
+        "RAM",
+        "HDD"
+        ],
+        "question": "Unité centrale de traitement (nom)"
+        }
+  ]
