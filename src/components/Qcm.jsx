@@ -12,17 +12,27 @@ export default function QCM() {
     const [total_count, setTotal_count] = useState(0);
 
     // Fetch questions
-    const [questions, setQuestions] = useState([]);
-    const [currentQuestion, setCurrentQuestion] = useState("no question");
-    const [currentAnswers, setCurrentAnswers] = useState(["answer1", "answer2", "answer3", "answer4"]);
-    const [currentCorrectAnswer, setCurrentCorrectAnswer] = useState("answer1");
+    const [questions, setQuestions] = useState(null);
+    const [currentQuestion, setCurrentQuestion] = useState(null);
+    const [currentAnswers, setCurrentAnswers] = useState(null);
+    const [currentCorrectAnswer, setCurrentCorrectAnswer] = useState(null);
 
     useEffect(() => {
-        fetch("/api/easy")
-            .then(response => response.json())
-            .then(data => setQuestions(data) )
-            .catch(error => console.error(error));
-        nextQuestion();
+        const fetchAPI = async () => {
+            const res = await fetch("/api/easy")
+            const data = await res.json();
+            let randomQuestion = data[Math.floor(Math.random() * data.length)];
+            let answers = [];
+            answers.push(randomQuestion.correctAnswer);
+            for (const element of randomQuestion.incorrectAnswers) {
+                answers.push(element);
+            }
+            setQuestions(data);
+            setCurrentQuestion(randomQuestion.question);
+            setCurrentCorrectAnswer(randomQuestion.correctAnswer);
+            setCurrentAnswers(shuffle(answers));
+        }
+        fetchAPI();
     }, []);
 
     function shuffle(list) {
@@ -44,8 +54,8 @@ export default function QCM() {
             setCurrentCorrectAnswer(randomQuestion.correctAnswer);
             let answers = [];
             answers.push(randomQuestion.correctAnswer);
-            for (let i = 0; i < randomQuestion.incorrectAnswers.length; i++) {
-                answers.push(randomQuestion.incorrectAnswers[i]);
+            for (const element of randomQuestion.incorrectAnswers) {
+                answers.push(element);
             }
             setCurrentAnswers(shuffle(answers));
         }
@@ -59,6 +69,10 @@ export default function QCM() {
             setTotal_count(total_count + 1);
         }
         nextQuestion();
+    }
+
+    if (!questions) {
+        return <h1>Loading...</h1>
     }
 
     return (
