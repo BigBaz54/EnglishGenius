@@ -52,6 +52,11 @@ export default function QCM(props) {
 
     function nextQuestion() {
         if (questions.length > 0) {
+            document.getElementById("nextQuestionButton").style.display = "none";
+            for (const element of document.getElementsByClassName("buttonQCM")) {
+                element.className = "buttonQCM";
+                element.disabled = false;
+            }
             const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
             setCurrentQuestion(randomQuestion.question);
             setCurrentCorrectAnswer(randomQuestion.correctAnswer);
@@ -71,7 +76,19 @@ export default function QCM(props) {
         } else {
             setTotal_count(total_count + 1);
         }
-        nextQuestion();
+        showCorrentAnswer();
+    }
+
+    function showCorrentAnswer() {
+        for (const element of document.getElementsByClassName("buttonQCM")) {
+            if (element.innerText === currentCorrectAnswer) {
+                element.className = "buttonQCM correctAnswer";
+            } else {
+                element.className = "buttonQCM incorrectAnswer";
+            }
+            element.disabled = true;
+            document.getElementById("nextQuestionButton").style.display = "block";
+        }
     }
 
     if (!questions) {
@@ -88,6 +105,9 @@ export default function QCM(props) {
                 <button className={"buttonQCM"} onClick={ () => triggerAnswer(currentAnswers[1])}>{currentAnswers[1]}</button>
                 <button className={"buttonQCM"} onClick={ () => triggerAnswer(currentAnswers[2])}>{currentAnswers[2]}</button>
                 <button className={"buttonQCM"} onClick={ () => triggerAnswer(currentAnswers[3])}>{currentAnswers[3]}</button>
+            </div>
+            <div className="nextQuestion">
+                <button id={"nextQuestionButton"} className={"nextQuestionButton"} onClick={() => nextQuestion()}>Next</button>
             </div>
             <div className={"score"}>
                 <h1>Score: {correctScore} / {total_count}</h1>
