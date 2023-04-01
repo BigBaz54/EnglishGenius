@@ -22,8 +22,8 @@ export default function QCM(props) {
         const fetchAPI = async () => {
             const res = await fetch("/api/"+props.topic)
             const data = await res.json();
-            let randomQuestion = data[Math.floor(Math.random() * data.length)];
-            let answers = [];
+            const randomQuestion = data[Math.floor(Math.random() * data.length)];
+            const answers = [];
             answers.push(randomQuestion.correctAnswer);
             for (const element of randomQuestion.incorrectAnswers) {
                 answers.push(element);
@@ -34,7 +34,7 @@ export default function QCM(props) {
             setCurrentAnswers(shuffle(answers));
         }
         fetchAPI();
-    }, []);
+    }, [props.topic]);
 
     function shuffle(list) {
         let currentIndex = list.length, temporaryValue, randomIndex;
@@ -50,10 +50,10 @@ export default function QCM(props) {
 
     function nextQuestion() {
         if (questions.length > 0) {
-            let randomQuestion = questions[Math.floor(Math.random() * questions.length)];
+            const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
             setCurrentQuestion(randomQuestion.question);
             setCurrentCorrectAnswer(randomQuestion.correctAnswer);
-            let answers = [];
+            const answers = [];
             answers.push(randomQuestion.correctAnswer);
             for (const element of randomQuestion.incorrectAnswers) {
                 answers.push(element);
