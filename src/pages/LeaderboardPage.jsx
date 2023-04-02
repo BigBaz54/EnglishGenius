@@ -32,18 +32,22 @@ export default function LeaderboardPage() {
     return (
         <div>
             <Navbar />
-            <table>
-                <thead>
-                    <tr>
-                        <th>Rank</th>
-                        <th>Nickname</th>
-                        <th>Score</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {renderRows()}
-                </tbody>
-            </table>
+            <div className="main">
+                <div className="leaderboard">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Rank</th>
+                                <th>Nickname</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {renderRows()}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     );
 }
