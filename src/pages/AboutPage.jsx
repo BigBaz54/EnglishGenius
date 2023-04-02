@@ -9,7 +9,7 @@ export default function AboutPage() {
         <div >
             <Navbar />
             <div className={"about"}>
-                <h1>What is LearnEnglishWithEase ?</h1>
+                <h1>What is EnglishGenius ?</h1>
                 <p>
                     Our goal is to help you work on your english, we aimed to make an <br/>
                     app that everyone can use very easily and quickly, no account, no <br/>
