@@ -8,8 +8,9 @@ export default function Popup(props) {
     const [nickname, setNickname] = React.useState("");
 
     const addLeaderboardEntry = (nickname, score) => {
-        const leaderboard = JSON.parse(localStorage.getItem("leaderboard")) || [];
+        let leaderboard = JSON.parse(localStorage.getItem("leaderboard")) || [];
         leaderboard.push({nickname, score});
+        leaderboard = leaderboard.sort((a, b) => b.score - a.score);
         localStorage.setItem("leaderboard", JSON.stringify(leaderboard));
         console.log(leaderboard);
     };

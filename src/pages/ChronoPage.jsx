@@ -13,7 +13,7 @@ import "../styles/ChronoPage.css";
 
 export default function ChronoPage(props) {
     const {topic} = useParams();
-    const [time, setTime] = React.useState(2);
+    const [time, setTime] = React.useState(60);
     const [score, setScore] = useState(0);
     const [total, setTotal] = useState(0);
     const [showPopup, setShowPopup] = useState(false);
