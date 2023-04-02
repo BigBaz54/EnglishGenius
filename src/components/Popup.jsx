@@ -9,7 +9,8 @@ export default function Popup(props) {
 
     const addLeaderboardEntry = (nickname, score) => {
         let leaderboard = JSON.parse(localStorage.getItem("leaderboard")) || [];
-        leaderboard.push({nickname, score});
+        const id = leaderboard.length;
+        leaderboard.push({id, nickname, score});
         leaderboard = leaderboard.sort((a, b) => b.score - a.score);
         localStorage.setItem("leaderboard", JSON.stringify(leaderboard));
         console.log(leaderboard);
