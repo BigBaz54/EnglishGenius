@@ -83,6 +83,14 @@ body .main h1 {
   user-select: none;
 }
 
+.chronoButton:hover {
+  background-color: #5A189A;
+}
+
+.leaderboardButton:hover {
+  background-color: #5A189A;
+}
+
 .chronoImage {
   height: 60%;
   width: 60%;

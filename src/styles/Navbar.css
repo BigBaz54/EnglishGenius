@@ -20,12 +20,12 @@
   font-family: "SF Pro Display", sans-serif;
 }
 .navbar .navbar-nav .nav-item .nav-link {
-  color: #9D4EDD;
+  color: #5A189A;
   font-size: 2.6rem;
   text-decoration: none;
 }
 .navbar .navbar-nav .nav-item .nav-link:hover {
-  color: #5A189A;
+  color: #9D4EDD;
 }
 .navbar .navbar-nav .nav-item .nav-link nav-link:visited {
   color: inherit;
@@ -35,13 +35,13 @@
   font-family: "SF Pro Display", sans-serif;
 }
 .navbar .navbar-nav .nav-home .nav-link {
-  color: #9D4EDD;
+  color: #5A189A;
   font-size: 3.2rem;
   text-decoration: none;
   font-weight: 550;
 }
 .navbar .navbar-nav .nav-home .nav-link:hover {
-  color: #5A189A;
+  color: #9D4EDD;
 }
 .navbar .navbar-nav .nav-home .nav-link nav-link:visited {
   color: inherit;
