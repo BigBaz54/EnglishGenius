@@ -9,15 +9,24 @@ import Chrono from "../components/Chrono.jsx";
 import "../styles/ChronoPage.css";
 
 
-export default function ChronoPage() {
-    const [currentTopic, setCurrentTopic] = useState("food");
+export default function ChronoPage(props) {
+    const topic = 'IT';
+    const [time, setTime] = React.useState(60);
+
+    React.useEffect(() => {
+        if (time > 0) {
+            setTimeout(() => setTime(time - 1), 1000);
+        } else {
+            setTime(60);
+        }
+    }, [time]);
 
     return (
         <div>
             <Navbar />
             <div className={"main"}>
-                <Chrono />
-                <QCM topic={currentTopic}/>
+                <Chrono time={time}/>
+                <QCM topic={topic}/>
             </div>
 
         </div>
