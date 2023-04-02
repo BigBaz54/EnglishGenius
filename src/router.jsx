@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom/client'
 
 // Pages & Components
 import HomePage from "./pages/HomePage.jsx";
@@ -14,7 +13,7 @@ export default function router() {
     const BrowserRouter = createBrowserRouter([
         {path: "/", element: <HomePage />},
         {path: "/about", element: <AboutPage />},
-        {path: "/chrono", element: <ChronoPage />},
+        {path: "/chrono/:topic", element: <ChronoPage />},
         {path: "/leaderboard", element: <LeaderboardPage />},
     ])
     return (
