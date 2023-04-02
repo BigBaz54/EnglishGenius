@@ -48,12 +48,19 @@
 .container .answers .buttonQCM.correctAnswer {
   background-color: #240046;
   color: white;
-  animation: shake 500ms ease-in;
   z-index: 1;
 }
 
 .container .answers .buttonQCM.incorrectAnswer {
   opacity: .5;
+}
+
+.container .answers .buttonQCM.correctAnswer.correctGuess {
+  animation: jump 500ms ease-in;
+}
+
+.container .answers .buttonQCM.correctAnswer.incorrectGuess {
+  animation: shake 500ms ease-in;
 }
 
 .container .answers .buttonQCM.incorrectAnswer:hover {
@@ -104,6 +111,15 @@
   }
   75% {
     transform: scale(1.2) rotate(-2deg);
+  }
+  80% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes jump {
+  30% {
+    transform: scale(1.2);
   }
   80% {
     transform: scale(1.2);

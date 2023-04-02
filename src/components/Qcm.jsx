@@ -74,11 +74,18 @@ export default function QCM(props) {
             confetti({
                 particleCount: 100,
                 spread: 1000
-              });
+            });
             setCorrectScore(correctScore + 1);
             setTotal_count(total_count + 1);
         } else {
             setTotal_count(total_count + 1);
+        }
+        for (const element of document.getElementsByClassName("buttonQCM")) {
+            if (element.innerText === value) {
+                    element.classList.add("correctGuess");
+                } else {
+                    element.classList.add("incorrectGuess");
+                }
         }
         showCorrentAnswer();
     }
@@ -86,9 +93,9 @@ export default function QCM(props) {
     function showCorrentAnswer() {
         for (const element of document.getElementsByClassName("buttonQCM")) {
             if (element.innerText === currentCorrectAnswer) {
-                element.className = "buttonQCM correctAnswer";
+                element.classList.add("correctAnswer");
             } else {
-                element.className = "buttonQCM incorrectAnswer";
+                element.classList.add("incorrectAnswer");
             }
             element.disabled = true;
             document.getElementById("nextQuestionButton").style.display = "block";
