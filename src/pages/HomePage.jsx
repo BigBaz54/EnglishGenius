@@ -12,7 +12,7 @@ import chrono from "../assets/chrono.png";
 import leaderboard from "../assets/leaderboard.png";
 
 export default function HomePage() {
-    const [currentTopic, setCurrentTopic] = useState("food");
+    const [currentTopic, setCurrentTopic] = useState("animals");
     const [score, setScore] = useState(0);
     const [total, setTotal] = useState(0);
 
@@ -33,8 +33,8 @@ export default function HomePage() {
                         <img src={chrono} className="chronoImage"/>
                     </NavLink>
                     <div className={"topicSelection"}>
+                        <button className={currentTopic==="animals" ? "topicButton selected" : "topicButton"} onClick={() => setCurrentTopic("animals")}>Topic of the day</button>
                         <button className={currentTopic==="sports" ? "topicButton selected" : "topicButton"} onClick={() => setCurrentTopic("sports")}>Sports</button>
-                        <button className={currentTopic==="animals" ? "topicButton selected" : "topicButton"} onClick={() => setCurrentTopic("animals")}>Animals</button>
                         <button className={currentTopic==="food" ? "topicButton selected" : "topicButton"} onClick={() => setCurrentTopic("food")}>Food</button>
                         <button className={currentTopic==="IT" ? "topicButton selected" : "topicButton"} onClick={() => setCurrentTopic("IT")}>IT</button>
                     </div>
