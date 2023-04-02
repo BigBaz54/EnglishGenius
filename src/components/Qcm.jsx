@@ -7,9 +7,6 @@ import confetti from "https://esm.run/canvas-confetti@1";
 import "../styles/Qcm.css";
 
 export default function QCM(props) {
-    // Script
-    const [correctScore, setCorrectScore] = useState(0);
-    const [total_count, setTotal_count] = useState(0);
 
     // Fetch questions
     const [questions, setQuestions] = useState(null);
@@ -28,8 +25,6 @@ export default function QCM(props) {
             for (const element of randomQuestion.incorrectAnswers) {
                 answers.push(element);
             }
-            setTotal_count(0);
-            setCorrectScore(0);
             setQuestions(data);
             setCurrentQuestion(randomQuestion.question);
             setCurrentCorrectAnswer(randomQuestion.correctAnswer);
@@ -75,11 +70,9 @@ export default function QCM(props) {
                 particleCount: 100,
                 spread: 1000
             });
-            setCorrectScore(correctScore + 1);
-            setTotal_count(total_count + 1);
-        } else {
-            setTotal_count(total_count + 1);
+            props.incrementScore();
         }
+        props.incrementTotal();
         for (const element of document.getElementsByClassName("buttonQCM")) {
             if (element.innerText === value) {
                     element.classList.add("correctGuess");
@@ -121,7 +114,7 @@ export default function QCM(props) {
                 <button id={"nextQuestionButton"} className={"nextQuestionButton"} onClick={() => nextQuestion()}>Next</button>
             </div>
             <div className={"score"}>
-                <h1>Score: {correctScore} / {total_count}</h1>
+                <h1>Score: {props.score} / {props.total}</h1>
             </div>
         </div>
     );
