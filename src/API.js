@@ -1,9 +1,6 @@
 import express from 'express';
 
 // Data
-import easyData from './question/easy.json' assert { type: 'json' };
-import mediumData from './question/medium.json' assert { type: 'json' };
-import hardData from './question/hard.json' assert { type: 'json' };
 import sportsData from './question/sports.json' assert { type: 'json' };
 import foodData from './question/food.json' assert { type: 'json' };
 import animalsData from './question/animals.json' assert { type: 'json' };
@@ -14,15 +11,6 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
     res.json({ message: 'API is running...' });
-});
-app.get('/easy', (req, res) => {
-    res.json(easyData);
-});
-app.get('/medium', (req, res) => {
-    res.json(mediumData);
-});
-app.get('/hard', (req, res) => {
-    res.json(hardData);
 });
 app.get('/sports', (req, res) => {
     res.json(sportsData);
